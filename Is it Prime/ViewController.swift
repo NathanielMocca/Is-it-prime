@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             
             isPrime = true
             
-            var number = Int(numberInputTextField.text!)
+            let number = Int(numberInputTextField.text!)
             
             if number == 1 { isPrime = false }
             
